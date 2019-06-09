@@ -29,6 +29,6 @@ server.listen(port);
 
 function ping() {
   this.res.writeHead(200);
-  this.res.end('<meta http-equiv="refresh" content="0; url=http://goblin.luke.computer/" />');
+  this.res.end('<meta http-equiv="refresh" content="0; url=http://goblin.lukeshafer.net/" />');
   //this.res.end("<a href=\"http://goblin.luke.computer/\">I'm online! Visit goblin.luke.computer for more info!</a>");
 }
